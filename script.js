@@ -58,7 +58,7 @@ function calculate(){
         m3=y3=0;
         d3=1;
     }
-    console.log(y3,m3,d3);
+    // console.log(y3,m3,d3);
 
     result.textContent=`your age is ${y3} years  ${m3} months and ${d3} days` ;
 }
