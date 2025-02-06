@@ -1,0 +1,73 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the box */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #991a1a;
+}
+
+/* Styling the main box */
+.box {
+    background: rgb(151, 125, 235);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    height: 440px;
+    border: 2px solid black;
+}
+
+.box p{
+    margin-top: 25px;
+}
+/* Heading */
+h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #161111;
+}
+
+/* Input field */
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+/* Button */
+button {
+    background-color: #2dc083;
+    color: rgb(18, 11, 7);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    width: 100%;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e01212;
+}
+
+/* Result paragraph */
+#result {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #d8aaaa;
+}
